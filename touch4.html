@@ -58,7 +58,7 @@
         })
         var marginL;
         var num=0;
-        var width=$(".wheel").width();
+        var width=$(window).width();
         touch.on("body","dragstart",".box",function(e){
             marginL=parseInt($(".box").css("marginLeft"))?parseInt($(".box").css("marginLeft")):0;
         })
